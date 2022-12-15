@@ -1,0 +1,34 @@
+{
+	"info": {
+		"_postman_id": "db6e01d8-c568-4eed-b37c-2b84fd7772df",
+		"name": "New Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_uid": "24924178-db6e01d8-c568-4eed-b37c-2b84fd7772df"
+	},
+	"item": [
+		{
+			"name": "getPatientList",
+			"id": "86316b6e-abe1-41cd-8767-44f0218e37e9",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44324/api/MainPageAPI",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44324",
+					"path": [
+						"api",
+						"MainPageAPI"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
